@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотогалерея — МБОУ «СОШ №29» г. Грозного</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <span class="logo-mark">29</span>
+                <div class="logo-text">
+                    <strong>МБОУ «СОШ №29»</strong>
+                    <span>г. Грозный</span>
+                </div>
+            </div>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="teachers.html">Учителя</a>
+                <a href="contacts.html">О школе</a>
+                <a href="gallery.html" class="active">Фотогалерея</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h1>Фотогалерея</h1>
+            <p>Моменты из жизни нашей школы — где и почему были сделаны эти кадры.</p>
+        </section>
+
+        <section class="gallery-grid">
+
+            <article class="gallery-card">
+                <div class="gallery-img-wrap">
+                    <img src="images/school-building.jpg"
+                         alt="Фасад здания МБОУ «СОШ №29»"
+                         class="gallery-img"
+                         onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');">
+                    <div class="img-fallback-text">Фото: фасад школы</div>
+                </div>
+                <div class="gallery-info">
+                    <h3>Фасад школы</h3>
+                    <p class="gallery-meta">📍 г. Грозный, 3-й пер. Кронштадтский, 5</p>
+                    <p>Снимок сделан у главного входа в школу. Здесь начинается каждый учебный день: ученики, родители и учителя встречаются на этом крыльце. Фото передаёт облик восстановленного в 2007 году здания.</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <div class="gallery-img-wrap">
+                    <img src="images/first-bell.jpg"
+                         alt="Праздничная линейка 1 сентября"
+                         class="gallery-img"
+                         onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');">
+                    <div class="img-fallback-text">Фото: линейка 1 сентября</div>
+                </div>
+                <div class="gallery-info">
+                    <h3>Первое сентября</h3>
+                    <p class="gallery-meta">📍 Школьный двор</p>
+                    <p>Торжественная линейка, посвящённая началу учебного года. Кадр сделан во дворе школы, где традиционно собираются все классы, звучит гимн и первый звонок.</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <div class="gallery-img-wrap">
+                    <img src="images/lesson.jpg"
+                         alt="Урок в классе"
+                         class="gallery-img"
+                         onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');">
+                    <div class="img-fallback-text">Фото: урок в классе</div>
+                </div>
+                <div class="gallery-info">
+                    <h3>Урок в классе</h3>
+                    <p class="gallery-meta">📍 Учебный кабинет</p>
+                    <p>Один из будних дней в стенах школы. Фото показывает рабочую атмосферу урока: ученики за партами, учитель у доски. Снято во время учебного процесса.</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <div class="gallery-img-wrap">
+                    <img src="images/event.jpg"
+                         alt="Школьное мероприятие"
+                         class="gallery-img"
+                         onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');">
+                    <div class="img-fallback-text">Фото: школьное мероприятие</div>
+                </div>
+                <div class="gallery-info">
+                    <h3>Школьное мероприятие</h3>
+                    <p class="gallery-meta">📍 Актовый зал / школьный двор</p>
+                    <p>Кадр с праздничного концерта или конкурса, организованного при участии Юсуповой Хавы Мумардиевны — организатора мероприятий по школе. Фото запечатлело выступление учеников.</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <div class="gallery-img-wrap">
+                    <img src="images/sport.jpg"
+                         alt="Спортивные соревнования"
+                         class="gallery-img"
+                         onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');">
+                    <div class="img-fallback-text">Фото: спортивные соревнования</div>
+                </div>
+                <div class="gallery-info">
+                    <h3>Спортивные соревнования</h3>
+                    <p class="gallery-meta">📍 Спортивный зал / площадка</p>
+                    <p>Снимок с соревнований по грэпплингу или другого спортивного события. Именно в таких турнирах ученик школы Читаев Хамзат добился победы и получил грант Мэра «Одарённые дети».</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <div class="gallery-img-wrap">
+                    <img src="images/teachers.jpg"
+                         alt="Педагогический коллектив"
+                         class="gallery-img"
+                         onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback');">
+                    <div class="img-fallback-text">Фото: педагогический коллектив</div>
+                </div>
+                <div class="gallery-info">
+                    <h3>Педагогический коллектив</h3>
+                    <p class="gallery-meta">📍 Школа, общее фото</p>
+                    <p>Общий снимок учителей школы. Сделан на одном из школьных праздников или педагогическом совете. На фото — педагоги, которые ежедневно работают с учениками.</p>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="gallery-note">
+            <p>📷 Все фотографии публикуются с согласия участников. Если у вас есть интересные кадры из жизни школы — принесите их в кабинет директора или напишите нам.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; МБОУ «СОШ №29» г. Грозного. Все права защищены.</p>
+    </footer>
+</body>
+</html>
